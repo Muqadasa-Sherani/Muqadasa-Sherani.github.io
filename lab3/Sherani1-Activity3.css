@@ -1,0 +1,45 @@
+.advertisement {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 150px;
+  border-color: gray;
+  border-width: 2px;
+  background-color: gray;
+  color: black;
+  font-weight: bold;
+}
+
+.header {
+  /*float: left;*/
+  position: relative;
+  margin-left: 150px;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  margin-left: 0%;
+  font-size: large;
+}
+
+#content-image {
+  float: left;
+  width: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.head {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
