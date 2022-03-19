@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  max-width: 1070px; /*this makes the everything....*/
+  margin: 0 auto; /*... inside body centered.*/
+}
+
+header {
+  height: 100vh; /*for the header (landing pages' starting screen height)*/
+}
+
+/* START NAVIGATION BAR*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none; /*removes the bullet points in the list (navigation section)*/
+  /*margin-left: 24px;
+margin-right: 24px;*/ /*this can be written more shortly as*/
+  margin: 0 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #19191b;
+}
+
+.orange-get-started-button {
+  padding: 20px 60px;
+  background-color: #ff7143;
+  border-radius: 10px;
+}
+
+.orange-get-started-button > a {
+  color: white;
+}
+/*END OF NAVIGATION BAR*/
+
+/*START OF FIRST CONTAINER*/
+.container1 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 1070px;
+}
+
+.grow-your-subs-text > h1 {
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.5px;
+}
+.description {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.7px;
+  color: #696871;
+  margin-top: 30px;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.buttons > a {
+  padding: 20px 60px;
+  background-color: #5454d4;
+  border-radius: 10px;
+  color: white;
+}
+
+.buttons > span {
+  /* arrow button*/
+
+  border: 1px solid #e7e7e7;
+  padding: 20px 25px;
+  border-radius: 100%;
+  margin-left: 40px;
+}
+/*END OF CONTAINER*/
+
+/*START OF COMPANY LOGOS BAR*/
+.companies-logos {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 1070px;
+}
+/*END OF COMPANY LOGOS BAR*/
+
+/*START OF SECOND CONTAINER
+.container2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 130%;
+  transform: translate(-50%, -50%);
+  min-width: 1070px;
+}
+END OF SECOND CONTAINER*/
+
+/*START OF CARDS BAR*/
+.cards {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  min-width: 1070px;
+  margin-top: 150px;
+}
+
+.cards-feature {
+  width: 400px;
+}
+
+.cards-feature > img {
+  width: 150px;
+}
+
+.cards-feature > h3 {
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.cards-feature > p {
+  font-size: 16px;
+  color: #696871;
+  margin-top: 20px;
+}
+
+/*END OF CARDS BAR*/

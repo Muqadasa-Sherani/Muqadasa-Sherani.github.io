@@ -1,0 +1,251 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  /* bring boxes side by side */
+  display: flex;
+  /* center the container*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* size of main container */
+  width: 1250px;
+  height: 100%; /* 874px -> scroll */
+}
+
+.Left-box {
+  width: 427px;
+  height: 100vh;
+  background: #ffcc81;
+}
+
+.logo-area {
+  /* logo */
+
+  position: absolute;
+  width: 66px;
+  height: 16.13px;
+  left: 45px;
+  top: 119px;
+}
+
+.title {
+  /* Discover the world’s top designers & creatives. */
+
+  position: absolute;
+  width: 335px;
+  height: 111px;
+  left: 45px;
+  top: 163px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #000000;
+}
+
+.picture-area {
+  /* image */
+
+  position: absolute;
+  width: 426px;
+  height: 309px;
+  left: 1px;
+  top: 445px;
+}
+
+.Right-box {
+  justify-content: center;
+  width: 823px;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.signup-title-area {
+  /* Title */
+
+  width: 249px;
+  height: 29px;
+  left: 623px;
+  top: 155px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.buttons-area {
+  display: flex;
+  align-items: center;
+}
+
+.span {
+  /* Sign up with google */
+  position: static;
+  width: 148px;
+  height: 17px;
+  left: 709px;
+  top: 224px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #878888;
+}
+
+.google-button {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 294px;
+  height: 48px;
+  background: #3f96d4;
+  border-radius: 5px;
+  /* Rectangle 34 */
+}
+
+.twitter-fb-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #878888;
+  padding: 20px 12px 24px 12px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  cursor: pointer;
+  left: 939px;
+  /* Rectangle 35 */
+}
+
+.divider {
+  /*space between buttons*/
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+.line-area {
+  display: flex;
+  margin-top: 15px;
+  color: grey;
+  width: 100%;
+}
+
+hr {
+  /* Çizgi */
+  width: 50%;
+  height: 1px;
+  background-color: grey;
+  margin: auto 5;
+}
+
+.form-input {
+  /* style for: fullname, username, email, password input */
+  background-color: #f2f2f2;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+}
+
+/* style for all input + label pairs */
+.input-style {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* style for: fullname, username, email, password labels */
+.inputBoxLabel {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.form-side-by-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chet-box {
+  /*privacy policy*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 397px;
+
+  margin-top: 25px;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #878888;
+}
+
+.check {
+  width: 22.38px;
+  height: 23px;
+  left: 623px;
+  top: 611px;
+
+  background: #ffffff;
+  border: 1px solid #878888;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #ff467e;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Farenin işaretini ele çevirerek tıklanabilir olduğunu gösterir */
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.signIn {
+  margin-left: 5px;
+  line-height: 17px;
+  color: #137ecb;
+}
+
+.footer-note {
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
