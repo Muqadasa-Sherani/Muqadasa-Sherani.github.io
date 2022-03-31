@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Activity4.css" />
+    <title>Muqadasa Sherani | Activity4</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <br /><br />
+    <form action="Activity4-preview.php" method="post">
+      <label>Name:</label> <input type="text" name="name" /><br />
+      <label>Username:</label> <input type="text" name="username" /><br />
+      <label>Password:</label> <input type="password" name="password" /> <br />
+      <label>Address:</label> <input type="text" name="address" /><br />
+      <label>Country:</label>
+      <select name="country">
+        <option value="USA">USA</option>
+        <option value="France">France</option>
+        <option value="Turkey">Turkey</option></select
+      ><br />
+      <label>ZIP Code:</label> <input type="text" name="zip" /><br />
+      <label>Email:</label> <input type="text" name="email" /><br />
+      <label>Sex:</label>
+      <input type="radio" name="sex" value="Female" /> Female
+      <input type="radio" name="sex" value="Male" /> Male
+      <br />
+      <label>Language:</label>
+      <input type="checkbox" name="language[]" value="English" />English
+      <input type="checkbox" name="language[]" value="French" />French
+      <input type="checkbox" name="language[]" value="German" />German
+      <br />
+      <label>About:</label> <textarea name="about" cols="30" rows="5"></textarea
+      ><br />
+      <input id="button-id" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
