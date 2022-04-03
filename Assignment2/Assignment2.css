@@ -1,0 +1,26 @@
+form label {
+    display: inline-block;
+    font-size: small;
+    margin-left: 5px;
+    width: 5%;
+    min-width: 60px;
+  }
+  form input {
+    margin-bottom: 10px;
+    display: inline-block;
+    min-width: 30px;
+  }
+  
+  form select {
+    margin-bottom: 10px;
+  }
+  
+  #button-id {
+    margin-left: 403px;
+  }
+
+  .result{
+      display: inline-block;
+      width: 171px;
+    text-align: left;
+  }
