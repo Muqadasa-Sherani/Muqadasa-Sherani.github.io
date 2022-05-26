@@ -2,7 +2,7 @@ $(document).ready(function() {
 	//on click for <a> element
     $("a").click(function () {
         var title = $(this).attr("title");        
-        getJSON("/json_files/"+title+".json"); 
+        getJSON("json_files/"+title+".json"); 
     });
 
 }); // end ready
